@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;800&display=swap');
+
+
+    
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-image: url("jgj4.jpg");
+    background-size: 190%;
+    background-position: initial;
+    background-repeat: no-repeat;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    /* background-color: rgb(54, 24, 100);  */
+    color: white;
+    position: relative;
+    z-index: 1; 
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: aliceblue;
+    transition: all 0.3s ease;
+    margin-right: 50px;
+    font-size: larger;
+}
+
+.navbar a:hover {
+    transform: scale(1.1);
+    color: aqua;
+    text-decoration: underline;
+}
+
+.navbar input[type="text"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: white;
+    color: #333;
+}
+.signup{
+    font-weight: bolder;
+    background-color:rgb(173, 160, 194);
+    border-radius: 7px;
+    height: 40px;
+    width: 100px;
+    font-size: larger;
+    transition: all 0.3s ease;
+    transform: scale(1.1);
+}
+.signup:hover{
+    transition: all 0.3s ease;
+    transform: scale(1.1);
+}
+
+
+/* Main styling */
+main {
+    display: flex; /* Enables flexbox layout */
+    justify-content: flex-end; /* Aligns items to the right */
+    padding: 20px;
+    /* background-color: #f9f9f9; */
+}
+
+/* Intro styling */
+.intro {
+    max-width: 450px;
+    height: 400px;
+    padding: 80px;
+    /* background-color: rgb(255, 255, 255); */
+    /* border: 1px solid #ddd; */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: white;
+}
+
+.intro p {
+    font-size: 20px;
+    line-height: 1.6;
+    color: white;
+    font-weight: 25px;
+}
+
